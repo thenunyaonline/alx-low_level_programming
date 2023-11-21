@@ -1,13 +1,13 @@
-#ifndef _LISTS_H_
-#define LISTS_H
+#ifndef _LISTS_H
+#define _LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * struct listint_s - singly linked list
+ * struct listint_s - struct
  * @n: integer
- * @next: pointER to the next node
+ * @next: pointer to the next node
  */
 
 typedef struct listint_s
@@ -33,4 +33,3 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
 #endif
-
